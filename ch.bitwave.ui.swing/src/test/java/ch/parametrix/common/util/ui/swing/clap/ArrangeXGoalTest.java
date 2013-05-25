@@ -22,8 +22,7 @@ public class ArrangeXGoalTest {
 		try {
 			new ArrangeXGoal(0);
 		} catch (PreConditionException e) {
-			assertEquals(
-					"Precondition failed: The margin must not be 0 because it is used to determine orientation.",
+			assertEquals("The margin must not be 0 because it is used to determine orientation.",
 					e.getMessage());
 		}
 	}
