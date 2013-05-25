@@ -34,7 +34,7 @@ public class DBC {
 	 *            is false.
 	 */
 	public void assertFalse(final String message, final boolean value) {
-		if (!value)
+		if (value)
 			throwException(message);
 	}
 
